@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+header {
+  border-bottom: 1px solid #000000;
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  padding-top: 80px;
+}
+
+.nav_table{
+  padding-top: 10px;
+}
+
+.main_table {
+  margin-left: 10%;
+  border-bottom: hsl(0, 0%, 38%) solid 1px;
+  h2{
+    color: #535353;
+  }
+}
+
+.main_table .summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.main_table .main_content {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+.org_table {
+  margin-left: 10%;
+  padding-bottom: 50px;
+  border-bottom: hsl(0, 0%, 38%) solid 1px;
+  h2{
+    color: #535353;
+  }
+}
+
+.loc_table {
+  margin-left: 10%;
+  padding-bottom: 50px;
+  border-bottom: hsl(0, 0%, 38%) solid 1px;
+  h2{
+    color: #535353;
+  }
+}
+
+.con_table {
+  margin-left: 10%;
+  padding-bottom: 50px;
+  border-bottom: hsl(0, 0%, 38%) solid 1px;
+  h2{
+    color: #535353;
+  }
+}
