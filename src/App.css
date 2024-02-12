@@ -15,7 +15,8 @@ section {
 }
 
 .main_table {
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
   border-bottom: hsl(0, 0%, 38%) solid 1px;
   h2{
     color: #535353;
@@ -33,7 +34,8 @@ section {
 }
 
 .org_table {
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 50px;
   border-bottom: hsl(0, 0%, 38%) solid 1px;
   h2{
@@ -42,7 +44,8 @@ section {
 }
 
 .loc_table {
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 50px;
   border-bottom: hsl(0, 0%, 38%) solid 1px;
   h2{
@@ -51,10 +54,33 @@ section {
 }
 
 .con_table {
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 50px;
   border-bottom: hsl(0, 0%, 38%) solid 1px;
   h2{
     color: #535353;
+  }
+}
+
+.contact_director{
+  height: 50px;
+  margin-left: 10%;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.contact_director2{
+  height: 70px;
+  background-color: hwb(0 92% 8%);
+  border: hsl(0, 0%, 56%) solid 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  span{
+    margin-left: 3%;
   }
 }

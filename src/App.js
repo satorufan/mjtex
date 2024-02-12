@@ -46,9 +46,9 @@ function App() {
       {/* 메인내용 */}
       <section id="home">
         
-        <table className="main_table" width="80%" cellSpacing="10px">
+        <table className="main_table" width="800px" cellSpacing="10px">
           <tr>
-            <h2><strong>Home</strong></h2>
+            <h2><strong></strong></h2>
           </tr>
           <tr className="summary" height="80px">
             <td>
@@ -82,54 +82,68 @@ function App() {
           responsibilities to meet the needs of our customers and be a trusted company with our
           continued dedication.
           </tr>
-          <tr height="50px"></tr>
+          <section id="Organization"></section>
           
         </table>
       </section>
 
       {/* 조직도 */}
-      <section id="Organization">
-        <table className='org_table' width="80%">
+        <table className='org_table' width="800px">
+          <tr height="50px"></tr>
           <tr height="100px">
             <h2><strong>Organization</strong></h2>
           </tr>
           <tr>
             <p align="center">
-              <img src='image/content_0102.jpg'></img>
+              <img src='image/content_0102.jpg' width="100%"></img>
             </p>
           </tr>
+          <section id="Location"></section>
         </table>
-      </section>
 
       {/* 위치 */}
-      <section id="Location">
-        <table className='loc_table' width="80%">
+        <table className='loc_table' width="800px">
+          <tr height="50px"></tr>
           <tr height="100px">
             <h2><strong>Location</strong></h2>
           </tr>
           <tr>
             <p align="center">
-              <img src='image/content_0103.jpg'></img>
+              <img src='image/content_0103.jpg' width="100%"></img>
             </p>
           </tr>
         </table>
-      </section>
 
       {/* 연락 */}
       <section id="Contact">
-        <table className='con_table' width="80%">
+        <table className='con_table' width="800px">
           <tr height="100px">
             <h2><strong>Contact</strong></h2>
           </tr>
           <tr>
-            <p align="center">
-              <img src='image/content_0103.jpg'></img>
+            <p className='contact_director'>
+              ▫General Director
             </p>
           </tr>
+          <tr>
+            <table className='contact_director2'>
+              <tr>
+                <td>
+                  <span>- Jason Hwang<br/></span>
+                  <span>- E-mail : jasonhtex@gmail.com</span>
+                </td>
+                <td>
+                  <span>- TEL : +82-53-626-2061~2<br/></span>
+                  <span>- FAX : +82-53-626-2063</span>
+                </td>
+              </tr>
+            </table>
+          </tr>
+          <tr height="80px"></tr>
         </table>
       </section>
 
-      <footer>
+      <footer align="center">
         <img src="image/copy.gif"/>
       </footer>
     </div>
